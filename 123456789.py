@@ -1,9 +1,10 @@
-quarters = input(int())
-first = input(int())
-second=input(int())
-third=input(int())
+quarters = int(input(":  "))
+first = int(input(":  "))
+second=int(input(":  "))
+third=int(input(":  "))
 count = 0
 while quarters > 0:
+    print(count)
     quarters - 1
     first +=1
     count +=1
