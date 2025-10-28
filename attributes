@@ -1,0 +1,10 @@
+cost of books = [
+#     {
+#         title:"The Silent Forest",
+#         author:"Emily Harper"
+#         year: 2015,
+#         genre: "Fiction"
+#         price: 12.99,
+#         stock:8,
+#     },
+]
