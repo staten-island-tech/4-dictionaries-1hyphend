@@ -1,4 +1,10 @@
-print("welcome to barnes and noble, what are you buying today")
+print("welcome to barnes and noble, buy these books right NOW!!")
+
+
+
+
+
+
 
 Barnes_noble_books = [
 {
@@ -18,18 +24,18 @@ Barnes_noble_books = [
 
 }, 
 {
-    "Title":"The Bad Guys",
-    "year":2022,
+    "Title":"Dog man: A Tale of Two Kitties",
+    "year":2017,
     "genre": "fiction",
-    "price": 22.99,
-    "author": "Aaron Blabey"
+    "price": 12.99,
+    "author": "Dav Pilkey"
 },
 {
     "Title":"Dog Man: A Graphic Novel",
-    "year":2022,
+    "year":2015,
     "genre": "fiction",
     "price": 10.54,
-    "author": "Aaron Blabey"
+    "author": "Dav Pilkey"
 },
 {
     "Title":"The Bad Guys in Let the Games Begin!",
@@ -42,3 +48,5 @@ Barnes_noble_books = [
 
 for index, Barnes_noble_books in enumerate(Barnes_noble_books):
     print(index, ":", Barnes_noble_books["Title"])
+Barnes_noble_books 
+compile 
