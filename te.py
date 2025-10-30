@@ -1,12 +1,6 @@
-print("welcome to barnes and noble, buy these books right NOW!!")
-
-
-
-
-
-
-
-Barnes_noble_books = [
+print("welcome to barnes and noble, here are the ONLY books we have")
+cart=[]
+BNBOOKS  = [
 {
     "Title":"Dog Man Big Jim Believes",
     "year": 2024,
@@ -46,7 +40,13 @@ Barnes_noble_books = [
 }
 ]
 
-for index, Barnes_noble_books in enumerate(Barnes_noble_books):
-    print(index, ":", Barnes_noble_books["Title"])
-Barnes_noble_books 
-compile 
+for index, BNBOOKS in enumerate(BNBOOKS): 
+    print(index, ":", BNBOOKS["Title"])
+while BNBOOKS in index:
+    BNBOOKS > 0 
+    print("Is that all you want to buy ")
+    if BNBOOKS:
+
+        print(index("title"))
+        print(index("price"))
+globals
