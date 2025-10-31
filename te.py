@@ -42,11 +42,10 @@ BNBOOKS  = [
 
 for index, BNBOOKS in enumerate(BNBOOKS): 
     print(index, ":", BNBOOKS["Title"])
-while BNBOOKS in index:
+while True:
     BNBOOKS > 0 
     print("Is that all you want to buy ")
     if BNBOOKS:
 
         print(index("title"))
         print(index("price"))
-globals
