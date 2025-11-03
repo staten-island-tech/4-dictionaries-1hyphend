@@ -49,3 +49,23 @@ while True:
 
         print(index("title"))
         print(index("price"))
+cart = [ ]       
+total = 0
+shopping = True
+while shopping:
+    print("Available items:")
+    for i, item in enumerate(store_items):
+        print(f”{item['name']}, {item['price']}, ({item['category']})")
+    choice = int(input("Enter the number of the item you wish to buy: "))
+    selected_item = store_items[choice]
+      cart.append(selected_item)
+    total += selected_item["price"]
+        print(f”Added {selected_item['name']} to your cart.")
+    answer = input("Do you want to continue shopping? (yes/no): ")
+    if answer != "yes":
+        shopping = False
+print("cart")
+for item in cart:
+    print(f"- {item['name']}")
+print(f"Total: {total:.2f}")
+print("Thank you for shopping with us!")
