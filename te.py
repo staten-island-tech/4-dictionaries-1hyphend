@@ -1,6 +1,6 @@
 print("WELCOME TO BARNES AND NOBLES WE ONLY HAVE THESE BOOKS")
 cart = [ ]       
-total = 0
+cost = ("price")
 shopping = [
     {
     "Title":"Dog Man Big Jim Believes",
@@ -50,16 +50,14 @@ while True:
     print (input("1,2,3,4,5"))
     choice = input("What else would you like to buy? (or type 'done' to finish): ") 
     if choice == 'done':
-        print(f"You've bought these items:{cart}")
+        print(f"You've bought these items:{index}")
     
-    else:
-     index = (choice)
-    if 0 != index < len(shopping):
-        cart.append(shopping[index])
-        print(f" You have added {shopping[cart('Title')]}")
-    for item, in cart:
-        total = sum(shopping[item]['cost'])
-        print(f" Your Total Amount is: {total:f}")
+        index = (choice)
+        if 0 == index < len(shopping):
+            cart.append(shopping[index])
+        for item in cart:
+            total = sum([cost])
+        print(f" Your Total Amount is:{total}")
 
 
     
