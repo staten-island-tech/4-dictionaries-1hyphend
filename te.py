@@ -89,14 +89,14 @@
 
 # numero quarter 
 
-from movies_data import movies
+# from movies_data import movies
 
-year = int(input("Enter a year: "))
+# year = int(input("Enter a year: "))
 
-print(f" (Movies released in {year}):")
-for movie in movies:
-    if movie["year"] == year:
-        print(f"{movie['title']} ({movie['genre']})")
+# print(f" (Movies released in {year}):")
+# for movie in movies:
+#     if movie["year"] == year:
+#         print(f"{movie['title']} ({movie['genre']})")
 
 # numebr feive 
 
@@ -106,3 +106,54 @@ for movie in movies:
 # def search_movie(title):
 #     search = (for m in movies if title.lower() in m["title"].lower())
 #     return search
+
+
+
+
+
+
+
+
+
+
+
+
+
+# IMA PLACE THIS HERE CUZ IM DUM 
+# Word Problem: The School Portal Login System
+# Your school is creating a new online portal for students to sign up for accounts. The login system needs a function that accepts two pieces of information from the user:
+# Their email address
+# Their password
+# Before creating the new account, the function must verify that the email and password follow school rules:
+# The email must be a string and must contain an "@" symbol.
+# The password must also be a string.
+# The password must be at least 8 characters long.
+# The password must include at least one number.
+# The password must include at least one uppercase letter.
+# If ANY of these rules are broken, the function should return an error message explaining what went wrong.
+# If EVERYTHING is good, the function should return a dictionary that represents the newly created user.
+
+def isValid(email, password):
+    
+    if "@" not in email:
+        return "Your email needs an @ symbol man"
+    if str not in (password):
+        return "Error: Password must be a string."
+    if len(password) < 6:
+        return "Your password has to be at least 6-7 characters long." 
+    # KAHABI LAME MEKANISM
+    for char in password:
+        if char():
+            password = True
+            print("GOOD JOB U MADE A PASSWORD")
+    if number not in password:
+        return "Error: Password must contain at least one number."
+
+    for char in password:
+        if char > 0:
+            password = True
+    if uppercase not in password:  (FIX THIS TMR)
+    return "You need atleast 1 uppercase brah"
+
+    return "Login information is valid!"
+input(MINNEMOUSE@gmail.com, SCUBADUPADIVER)
