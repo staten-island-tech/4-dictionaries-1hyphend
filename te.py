@@ -104,7 +104,7 @@
 # from movies_data import movies
 
 # def search_movie(title):
-#     search = (for m in movies if title.lower() in m["title"].lower())
+#     search = (for m in movies if title in m["title"])
 #     return search
 
 
@@ -137,7 +137,7 @@ def isValid(email, password):
     
     if "@" not in email:
         return "Your email needs an @ symbol man"
-    if str not in (password):
+    if  str(password) not in (password):
         return "Error: Password must be a string."
     if len(password) < 6:
         return "Your password has to be at least 6-7 characters long." 
